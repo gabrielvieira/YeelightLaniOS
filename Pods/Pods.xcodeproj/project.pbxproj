@@ -1,0 +1,987 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CF0EAFA37559176B02FBB51A0B61175 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28955BAE5463746F835721E729093AF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		36F54DA31F0B1E42FD090B38E2248AD9 /* Pods-yeelight-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B430743AC59ECD712A3787757C1A45B7 /* Pods-yeelight-dummy.m */; };
+		3A132A44E33C960DACD1C3E73C2DD037 /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7152CB47CA3B2CD90E36144DA410122A /* ChromaColorPicker.swift */; };
+		5156F2713BC04A9BFDF8405DA3049918 /* Pods-yeelightTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFFE6BF71021362A8F4E5BF701E6F0E /* Pods-yeelightTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5507B505281AF901487CA8A6CC3527A8 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78606B6AB511B2E28950DAF06533F86C /* ChromaAddButton.swift */; };
+		5765B88B27CB77791C289CBC0B491F3A /* Pods-yeelightTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BEF2095DE1B0A4CA77A991CF20CC58 /* Pods-yeelightTests-dummy.m */; };
+		6216CE295D91F37F940465FEBDF7CF63 /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E269DF7C56D540DC9817EE97DFBC5E9B /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDFE6A349ADC0BE2E54C63A1301C252 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF0897458D3085D560E5B51542536CA /* ChromaHandle.swift */; };
+		9D95A0D1EE35F32C20CA8EABB20A8C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B1D7E56441F77990DF3B075D34E66F64 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1171CA219EFAA06F92728FD9C5F3E16 /* ChromaColorPicker-dummy.m */; };
+		B81CC12DA5338E246864FEFCBECC26B8 /* Pods-yeelightUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A5C8EABD360F48E75E047596F3B2BD /* Pods-yeelightUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF7C4C0D93112210BB8B507913B72D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C0F692E68F53B5358F2D5F9579E3B399 /* Pods-yeelightUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63166F3A2062C242E1FFCB8EAD6C08A7 /* Pods-yeelightUITests-dummy.m */; };
+		C1DCEDA2971E2C4AECB4EBA0F8BA947E /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B719C909ABBEA77ED008E309D7E218DB /* UIColor+Utilities.swift */; };
+		E09A55569980138E1AE43BE46A5F661E /* Pods-yeelight-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C59D8F30D6192122C81CD155A40504F /* Pods-yeelight-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A0DA3A123C873F3D3987C93C3DF55F /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2BC8DBA29DFDDD26D1160B8857C781 /* ColorModeToggleButton.swift */; };
+		FA467CEAA3F3EE3C510EC701436F2D1C /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9BFFD22F2BC386E3D0D820CAA93312 /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD1B7D8CE0CBD443B6FC92E15D0FA3F /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E49EC1A32651984DF0876EF4691C64A /* ChromaShadeSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		098D3333068D262FC954DF45C1C1D8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDA36E4C2D929AC0F419C5F3859BC55;
+			remoteInfo = "Pods-yeelight";
+		};
+		97452A442E51539BC8A1869098993C8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCDA36E4C2D929AC0F419C5F3859BC55;
+			remoteInfo = "Pods-yeelight";
+		};
+		A8D7B6BC91B839F01103A6C4E91DE273 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7961A0F04FB3D96E3E703CF075D6DACD;
+			remoteInfo = ChromaColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ABCF6F63C70DA445998988DC318C2A6 /* Pods-yeelightTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-yeelightTests.modulemap"; sourceTree = "<group>"; };
+		0B9BFFD22F2BC386E3D0D820CAA93312 /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		105EC17962F891C88048B4A640828EEF /* Pods-yeelight-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yeelight-frameworks.sh"; sourceTree = "<group>"; };
+		21BEF2095DE1B0A4CA77A991CF20CC58 /* Pods-yeelightTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yeelightTests-dummy.m"; sourceTree = "<group>"; };
+		23825D9DCE2E61871E0A7BB83AC6DC1E /* Pods-yeelightUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yeelightUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26E06B7345E54BD42CABD6ED9F90677E /* Pods-yeelightUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelightUITests.release.xcconfig"; sourceTree = "<group>"; };
+		27C5E1AE4DA1FA552B9834B7BB6DB890 /* Pods-yeelightUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelightUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27F82A3F8B4C113D1770A82BCA1A94A6 /* Pods-yeelight-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelight-Info.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		333C5E716952298886670093F74D9954 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		37301478201A97E8E5E29FE32E0D720F /* Pods-yeelightTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yeelightTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C48630082A098D068F16C4F1E49F623 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		4C583C75B8BCA784E978D1B834755608 /* Pods-yeelightTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelightTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C9A305C085BD6041037CEC78FE7B998 /* Pods-yeelightTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelightTests.release.xcconfig"; sourceTree = "<group>"; };
+		507C6A5226232D41DC6CF55D17141C03 /* Pods_yeelight.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_yeelight.framework; path = "Pods-yeelight.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54640867247FA4C3D987994F4104B740 /* Pods-yeelightTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelightTests-Info.plist"; sourceTree = "<group>"; };
+		55D1E7BB4578CCC64D0AEB0BAFBA0EA0 /* Pods-yeelightUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelightUITests-Info.plist"; sourceTree = "<group>"; };
+		5A2BC8DBA29DFDDD26D1160B8857C781 /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		5E49EC1A32651984DF0876EF4691C64A /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		63166F3A2062C242E1FFCB8EAD6C08A7 /* Pods-yeelightUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yeelightUITests-dummy.m"; sourceTree = "<group>"; };
+		63E83BF9F6E534921E0343417922553F /* Pods-yeelight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelight.debug.xcconfig"; sourceTree = "<group>"; };
+		6610811EC640FFD47349E437F1944BB1 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		6C59D8F30D6192122C81CD155A40504F /* Pods-yeelight-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yeelight-umbrella.h"; sourceTree = "<group>"; };
+		7151DA61FEEEE2B7AE7E79C526435E1F /* Pods_yeelightTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_yeelightTests.framework; path = "Pods-yeelightTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7152CB47CA3B2CD90E36144DA410122A /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
+		78606B6AB511B2E28950DAF06533F86C /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
+		7A74C49223F0A93F0D5A56EBA00C04E7 /* Pods-yeelight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelight.release.xcconfig"; sourceTree = "<group>"; };
+		8C97FE3F7F4FC6C35D2FE7B6BEC6F614 /* Pods-yeelight-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yeelight-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE5349042941E4FCE0AEF3681174B476 /* Pods-yeelightUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelightUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B430743AC59ECD712A3787757C1A45B7 /* Pods-yeelight-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yeelight-dummy.m"; sourceTree = "<group>"; };
+		B719C909ABBEA77ED008E309D7E218DB /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		BD7670FEE712F3D77C9EC6CD84FD8C2B /* Pods-yeelight-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yeelight-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDFFE6BF71021362A8F4E5BF701E6F0E /* Pods-yeelightTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yeelightTests-umbrella.h"; sourceTree = "<group>"; };
+		CB543EB1542ADA6124BEFF2C71728062 /* Pods-yeelightTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yeelightTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D10E6D649BB42B43BAD2CC99A858D120 /* Pods-yeelightUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-yeelightUITests.modulemap"; sourceTree = "<group>"; };
+		D2585630562F481390D367B2C1C0FC8E /* Pods_yeelightUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_yeelightUITests.framework; path = "Pods-yeelightUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40FF0F11E7F2EF29D1A92D25FB2D60D /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6A5C8EABD360F48E75E047596F3B2BD /* Pods-yeelightUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yeelightUITests-umbrella.h"; sourceTree = "<group>"; };
+		DBF0897458D3085D560E5B51542536CA /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		E1171CA219EFAA06F92728FD9C5F3E16 /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		E269DF7C56D540DC9817EE97DFBC5E9B /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
+		E91990E53A47CAEA805E62F980FD2D9F /* ChromaColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChromaColorPicker-Info.plist"; sourceTree = "<group>"; };
+		EAAED15D369C33769D9B9EBF4234AF2A /* Pods-yeelight.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-yeelight.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C4CBBB1996238F824914DB8D31A1B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D95A0D1EE35F32C20CA8EABB20A8C3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4EE05231385D3B22CABBB1C46F16D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CF0EAFA37559176B02FBB51A0B61175 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7401FF428FBFDD52124F8523BB1A44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFF7C4C0D93112210BB8B507913B72D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86A9F7E0469729215BED6D71382F2AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28955BAE5463746F835721E729093AF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E4957F5540A1B9BD522D67CE944EA64 /* Pods-yeelightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D10E6D649BB42B43BAD2CC99A858D120 /* Pods-yeelightUITests.modulemap */,
+				23825D9DCE2E61871E0A7BB83AC6DC1E /* Pods-yeelightUITests-acknowledgements.markdown */,
+				27C5E1AE4DA1FA552B9834B7BB6DB890 /* Pods-yeelightUITests-acknowledgements.plist */,
+				63166F3A2062C242E1FFCB8EAD6C08A7 /* Pods-yeelightUITests-dummy.m */,
+				55D1E7BB4578CCC64D0AEB0BAFBA0EA0 /* Pods-yeelightUITests-Info.plist */,
+				D6A5C8EABD360F48E75E047596F3B2BD /* Pods-yeelightUITests-umbrella.h */,
+				AE5349042941E4FCE0AEF3681174B476 /* Pods-yeelightUITests.debug.xcconfig */,
+				26E06B7345E54BD42CABD6ED9F90677E /* Pods-yeelightUITests.release.xcconfig */,
+			);
+			name = "Pods-yeelightUITests";
+			path = "Target Support Files/Pods-yeelightUITests";
+			sourceTree = "<group>";
+		};
+		417E4EF80C60711416C0C17EE4AE6479 /* Pods-yeelight */ = {
+			isa = PBXGroup;
+			children = (
+				EAAED15D369C33769D9B9EBF4234AF2A /* Pods-yeelight.modulemap */,
+				BD7670FEE712F3D77C9EC6CD84FD8C2B /* Pods-yeelight-acknowledgements.markdown */,
+				8C97FE3F7F4FC6C35D2FE7B6BEC6F614 /* Pods-yeelight-acknowledgements.plist */,
+				B430743AC59ECD712A3787757C1A45B7 /* Pods-yeelight-dummy.m */,
+				105EC17962F891C88048B4A640828EEF /* Pods-yeelight-frameworks.sh */,
+				27F82A3F8B4C113D1770A82BCA1A94A6 /* Pods-yeelight-Info.plist */,
+				6C59D8F30D6192122C81CD155A40504F /* Pods-yeelight-umbrella.h */,
+				63E83BF9F6E534921E0343417922553F /* Pods-yeelight.debug.xcconfig */,
+				7A74C49223F0A93F0D5A56EBA00C04E7 /* Pods-yeelight.release.xcconfig */,
+			);
+			name = "Pods-yeelight";
+			path = "Target Support Files/Pods-yeelight";
+			sourceTree = "<group>";
+		};
+		4B9D701388748E5D2FFA0C31B8D3BAC3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				417E4EF80C60711416C0C17EE4AE6479 /* Pods-yeelight */,
+				5CEE9F4BCAA086BC37A0EA7BC445683F /* Pods-yeelightTests */,
+				1E4957F5540A1B9BD522D67CE944EA64 /* Pods-yeelightUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CEE9F4BCAA086BC37A0EA7BC445683F /* Pods-yeelightTests */ = {
+			isa = PBXGroup;
+			children = (
+				0ABCF6F63C70DA445998988DC318C2A6 /* Pods-yeelightTests.modulemap */,
+				37301478201A97E8E5E29FE32E0D720F /* Pods-yeelightTests-acknowledgements.markdown */,
+				4C583C75B8BCA784E978D1B834755608 /* Pods-yeelightTests-acknowledgements.plist */,
+				21BEF2095DE1B0A4CA77A991CF20CC58 /* Pods-yeelightTests-dummy.m */,
+				54640867247FA4C3D987994F4104B740 /* Pods-yeelightTests-Info.plist */,
+				BDFFE6BF71021362A8F4E5BF701E6F0E /* Pods-yeelightTests-umbrella.h */,
+				CB543EB1542ADA6124BEFF2C71728062 /* Pods-yeelightTests.debug.xcconfig */,
+				4C9A305C085BD6041037CEC78FE7B998 /* Pods-yeelightTests.release.xcconfig */,
+			);
+			name = "Pods-yeelightTests";
+			path = "Target Support Files/Pods-yeelightTests";
+			sourceTree = "<group>";
+		};
+		62C16ABF0962842B4A361B9475AFEA7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6610811EC640FFD47349E437F1944BB1 /* ChromaColorPicker.modulemap */,
+				333C5E716952298886670093F74D9954 /* ChromaColorPicker.xcconfig */,
+				E1171CA219EFAA06F92728FD9C5F3E16 /* ChromaColorPicker-dummy.m */,
+				E91990E53A47CAEA805E62F980FD2D9F /* ChromaColorPicker-Info.plist */,
+				3C48630082A098D068F16C4F1E49F623 /* ChromaColorPicker-prefix.pch */,
+				0B9BFFD22F2BC386E3D0D820CAA93312 /* ChromaColorPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
+			sourceTree = "<group>";
+		};
+		8B396E856D7FB261F2DB7A1CF36E3D3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40FF0F11E7F2EF29D1A92D25FB2D60D /* ChromaColorPicker.framework */,
+				507C6A5226232D41DC6CF55D17141C03 /* Pods_yeelight.framework */,
+				7151DA61FEEEE2B7AE7E79C526435E1F /* Pods_yeelightTests.framework */,
+				D2585630562F481390D367B2C1C0FC8E /* Pods_yeelightUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F537D3782059F6E1CCD6722B33FDF281 /* Pods */,
+				8B396E856D7FB261F2DB7A1CF36E3D3C /* Products */,
+				4B9D701388748E5D2FFA0C31B8D3BAC3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB9F4E729DD2CA45EB33DF7D18F5A04 /* ChromaColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				78606B6AB511B2E28950DAF06533F86C /* ChromaAddButton.swift */,
+				E269DF7C56D540DC9817EE97DFBC5E9B /* ChromaColorPicker.h */,
+				7152CB47CA3B2CD90E36144DA410122A /* ChromaColorPicker.swift */,
+				DBF0897458D3085D560E5B51542536CA /* ChromaHandle.swift */,
+				5E49EC1A32651984DF0876EF4691C64A /* ChromaShadeSlider.swift */,
+				5A2BC8DBA29DFDDD26D1160B8857C781 /* ColorModeToggleButton.swift */,
+				B719C909ABBEA77ED008E309D7E218DB /* UIColor+Utilities.swift */,
+				62C16ABF0962842B4A361B9475AFEA7A /* Support Files */,
+			);
+			name = ChromaColorPicker;
+			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		F537D3782059F6E1CCD6722B33FDF281 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB9F4E729DD2CA45EB33DF7D18F5A04 /* ChromaColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13CC6A446A5A1205B81069F1992E9211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5156F2713BC04A9BFDF8405DA3049918 /* Pods-yeelightTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557271BD6B3F516533271172EFF5F1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09A55569980138E1AE43BE46A5F661E /* Pods-yeelight-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A2E5C4F43D82672E1B7CCBB5C5CAB47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81CC12DA5338E246864FEFCBECC26B8 /* Pods-yeelightUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B944E92B6ABC1F0BCBD9B5E3672DACFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA467CEAA3F3EE3C510EC701436F2D1C /* ChromaColorPicker-umbrella.h in Headers */,
+				6216CE295D91F37F940465FEBDF7CF63 /* ChromaColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7961A0F04FB3D96E3E703CF075D6DACD /* ChromaColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31A5605865C39E9C6162EBFBB9458055 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildPhases = (
+				B944E92B6ABC1F0BCBD9B5E3672DACFA /* Headers */,
+				7C60F77F16696C1B78BD909F3DF2DF1E /* Sources */,
+				D86A9F7E0469729215BED6D71382F2AC /* Frameworks */,
+				1E48C44DE9B70F866CFA381B3E135BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaColorPicker;
+			productName = ChromaColorPicker;
+			productReference = D40FF0F11E7F2EF29D1A92D25FB2D60D /* ChromaColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A453FC461AFBD56DBE25D851117CE209 /* Pods-yeelightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56ED8E10895C71D98E911644D9B5F738 /* Build configuration list for PBXNativeTarget "Pods-yeelightTests" */;
+			buildPhases = (
+				13CC6A446A5A1205B81069F1992E9211 /* Headers */,
+				AFDCB4B24F22C2F7EE60031684C9D61F /* Sources */,
+				C7401FF428FBFDD52124F8523BB1A44E /* Frameworks */,
+				EBCB5E42211821E91A5478B2641682BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB7C073DEFC734FFAA49B73A4E666ED /* PBXTargetDependency */,
+			);
+			name = "Pods-yeelightTests";
+			productName = "Pods-yeelightTests";
+			productReference = 7151DA61FEEEE2B7AE7E79C526435E1F /* Pods_yeelightTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCDA36E4C2D929AC0F419C5F3859BC55 /* Pods-yeelight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467A8B5A884D739C4AABA168742FB393 /* Build configuration list for PBXNativeTarget "Pods-yeelight" */;
+			buildPhases = (
+				7557271BD6B3F516533271172EFF5F1A /* Headers */,
+				C6A61F152A4459399C5208F2256536C3 /* Sources */,
+				9A4EE05231385D3B22CABBB1C46F16D7 /* Frameworks */,
+				FEA07A6CC4D09E00205B12E555345D05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A178F9F70B1F79E94FD7D9A7A111491 /* PBXTargetDependency */,
+			);
+			name = "Pods-yeelight";
+			productName = "Pods-yeelight";
+			productReference = 507C6A5226232D41DC6CF55D17141C03 /* Pods_yeelight.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE0F6C4AD66F358C04FEAC452516DA33 /* Pods-yeelightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCD3B99DDFC0059A12549019E2D92F2 /* Build configuration list for PBXNativeTarget "Pods-yeelightUITests" */;
+			buildPhases = (
+				7A2E5C4F43D82672E1B7CCBB5C5CAB47 /* Headers */,
+				BCEA4BC6BD181119C949591EAE52A01B /* Sources */,
+				53C4CBBB1996238F824914DB8D31A1B3 /* Frameworks */,
+				BB207C5E2EFED84BDEDA59145F24C439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74C02CCBA23761E6DDA839E58E6AD9C0 /* PBXTargetDependency */,
+			);
+			name = "Pods-yeelightUITests";
+			productName = "Pods-yeelightUITests";
+			productReference = D2585630562F481390D367B2C1C0FC8E /* Pods_yeelightUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8B396E856D7FB261F2DB7A1CF36E3D3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7961A0F04FB3D96E3E703CF075D6DACD /* ChromaColorPicker */,
+				BCDA36E4C2D929AC0F419C5F3859BC55 /* Pods-yeelight */,
+				A453FC461AFBD56DBE25D851117CE209 /* Pods-yeelightTests */,
+				FE0F6C4AD66F358C04FEAC452516DA33 /* Pods-yeelightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E48C44DE9B70F866CFA381B3E135BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB207C5E2EFED84BDEDA59145F24C439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBCB5E42211821E91A5478B2641682BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA07A6CC4D09E00205B12E555345D05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C60F77F16696C1B78BD909F3DF2DF1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5507B505281AF901487CA8A6CC3527A8 /* ChromaAddButton.swift in Sources */,
+				B1D7E56441F77990DF3B075D34E66F64 /* ChromaColorPicker-dummy.m in Sources */,
+				3A132A44E33C960DACD1C3E73C2DD037 /* ChromaColorPicker.swift in Sources */,
+				7DDFE6A349ADC0BE2E54C63A1301C252 /* ChromaHandle.swift in Sources */,
+				FFD1B7D8CE0CBD443B6FC92E15D0FA3F /* ChromaShadeSlider.swift in Sources */,
+				F5A0DA3A123C873F3D3987C93C3DF55F /* ColorModeToggleButton.swift in Sources */,
+				C1DCEDA2971E2C4AECB4EBA0F8BA947E /* UIColor+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDCB4B24F22C2F7EE60031684C9D61F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5765B88B27CB77791C289CBC0B491F3A /* Pods-yeelightTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEA4BC6BD181119C949591EAE52A01B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F692E68F53B5358F2D5F9579E3B399 /* Pods-yeelightUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A61F152A4459399C5208F2256536C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F54DA31F0B1E42FD090B38E2248AD9 /* Pods-yeelight-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A178F9F70B1F79E94FD7D9A7A111491 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChromaColorPicker;
+			target = 7961A0F04FB3D96E3E703CF075D6DACD /* ChromaColorPicker */;
+			targetProxy = A8D7B6BC91B839F01103A6C4E91DE273 /* PBXContainerItemProxy */;
+		};
+		74C02CCBA23761E6DDA839E58E6AD9C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-yeelight";
+			target = BCDA36E4C2D929AC0F419C5F3859BC55 /* Pods-yeelight */;
+			targetProxy = 098D3333068D262FC954DF45C1C1D8D4 /* PBXContainerItemProxy */;
+		};
+		BDB7C073DEFC734FFAA49B73A4E666ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-yeelight";
+			target = BCDA36E4C2D929AC0F419C5F3859BC55 /* Pods-yeelight */;
+			targetProxy = 97452A442E51539BC8A1869098993C8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0866C4FC3F60FCF1DB62C813991F1D18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9A305C085BD6041037CEC78FE7B998 /* Pods-yeelightTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelightTests/Pods-yeelightTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelightTests/Pods-yeelightTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4DA5FEC989B3B6ABADFF968B7BF64DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333C5E716952298886670093F74D9954 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76BF8BA3EEF0E115368D16B529D197A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A74C49223F0A93F0D5A56EBA00C04E7 /* Pods-yeelight.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelight/Pods-yeelight-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelight/Pods-yeelight.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CEDFE9C185201B88A93FB61F2E414F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333C5E716952298886670093F74D9954 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = ChromaColorPicker;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C462BE08B651BB33BA9D60CC4C7FDB70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63E83BF9F6E534921E0343417922553F /* Pods-yeelight.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelight/Pods-yeelight-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelight/Pods-yeelight.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD50AAA959EC1F38D77A476A95186BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE5349042941E4FCE0AEF3681174B476 /* Pods-yeelightUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelightUITests/Pods-yeelightUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelightUITests/Pods-yeelightUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB02CFE4D999AC645E6E8BF3C2C3F224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E06B7345E54BD42CABD6ED9F90677E /* Pods-yeelightUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelightUITests/Pods-yeelightUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelightUITests/Pods-yeelightUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFC6B59D81863FFC544F6DC2B0D2F90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB543EB1542ADA6124BEFF2C71728062 /* Pods-yeelightTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-yeelightTests/Pods-yeelightTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yeelightTests/Pods-yeelightTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31A5605865C39E9C6162EBFBB9458055 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CEDFE9C185201B88A93FB61F2E414F1 /* Debug */,
+				4DA5FEC989B3B6ABADFF968B7BF64DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467A8B5A884D739C4AABA168742FB393 /* Build configuration list for PBXNativeTarget "Pods-yeelight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C462BE08B651BB33BA9D60CC4C7FDB70 /* Debug */,
+				76BF8BA3EEF0E115368D16B529D197A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				204B8AEA4AE90A551A1768B355C2F9F0 /* Debug */,
+				3CCC6195EDBEE5DA2A49DF962113BE16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56ED8E10895C71D98E911644D9B5F738 /* Build configuration list for PBXNativeTarget "Pods-yeelightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFC6B59D81863FFC544F6DC2B0D2F90F /* Debug */,
+				0866C4FC3F60FCF1DB62C813991F1D18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCD3B99DDFC0059A12549019E2D92F2 /* Build configuration list for PBXNativeTarget "Pods-yeelightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD50AAA959EC1F38D77A476A95186BB7 /* Debug */,
+				DB02CFE4D999AC645E6E8BF3C2C3F224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

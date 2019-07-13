@@ -1,0 +1,6 @@
+framework module Pods_yeelightUITests {
+  umbrella header "Pods-yeelightUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LightControllerViewController" customModule="yeelight" customModuleProvider="target">
+            <connections>
+                <outlet property="colorPickerContainer" destination="t7Y-wl-U6R" id="Whn-a4-Uc2"/>
+                <outlet property="colorTempSlider" destination="SJt-0s-6Ko" id="TZK-DS-p19"/>
+                <outlet property="toggleLight" destination="uPw-FZ-e8a" id="bNM-B9-qrB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1703" minValue="1700" maxValue="6500" translatesAutoresizingMaskIntoConstraints="NO" id="SJt-0s-6Ko">
+                    <rect key="frame" x="23" y="268" width="368" height="31"/>
+                    <connections>
+                        <action selector="switchChanged:" destination="-1" eventType="touchUpInside" id="caW-Ab-K3W"/>
+                    </connections>
+                </slider>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7Y-wl-U6R">
+                    <rect key="frame" x="57" y="368" width="300" height="300"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="CJ2-0K-0PS"/>
+                        <constraint firstAttribute="height" constant="300" id="PsD-of-4ov"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sid-wB-EEw">
+                    <rect key="frame" x="180.5" y="60" width="53" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="27" id="I2f-XM-JUm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uPw-FZ-e8a">
+                    <rect key="frame" x="182.5" y="167" width="51" height="31"/>
+                    <connections>
+                        <action selector="toggleSwitch:" destination="-1" eventType="valueChanged" id="XYb-xn-6Nc"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="SJt-0s-6Ko" firstAttribute="top" secondItem="uPw-FZ-e8a" secondAttribute="bottom" constant="70" id="JR9-DU-qDU"/>
+                <constraint firstItem="sid-wB-EEw" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="Qms-S1-kyS"/>
+                <constraint firstItem="SJt-0s-6Ko" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="TEu-9e-ORh"/>
+                <constraint firstItem="t7Y-wl-U6R" firstAttribute="top" secondItem="SJt-0s-6Ko" secondAttribute="bottom" constant="70" id="b5H-87-8Df"/>
+                <constraint firstItem="sid-wB-EEw" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hW2-cF-PYD"/>
+                <constraint firstItem="t7Y-wl-U6R" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="iKz-Ia-CDz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SJt-0s-6Ko" secondAttribute="trailing" constant="25" id="jOG-GF-POw"/>
+                <constraint firstItem="uPw-FZ-e8a" firstAttribute="top" secondItem="sid-wB-EEw" secondAttribute="bottom" constant="80" id="qSx-8l-vhI"/>
+                <constraint firstItem="uPw-FZ-e8a" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ush-EU-9Jd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="137.68115942028987" y="113.83928571428571"/>
+        </view>
+    </objects>
+</document>

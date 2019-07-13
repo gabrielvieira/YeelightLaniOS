@@ -1,0 +1,16 @@
+PODS:
+  - ChromaColorPicker (1.7.2)
+
+DEPENDENCIES:
+  - ChromaColorPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ChromaColorPicker
+
+SPEC CHECKSUMS:
+  ChromaColorPicker: 78194fbae9f342d3781ac178c4d92c7652197d18
+
+PODFILE CHECKSUM: bebb421a85073376eab86c6d59d469f96a3f34b8
+
+COCOAPODS: 1.7.1
