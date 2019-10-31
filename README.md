@@ -1,2 +1,4 @@
 # YeelightLaniOS
-Control Yeelight bulb on LAN with iOS App
+Control Yeelight LED Smart Bulb  on LAN with iOS App.
+
+
